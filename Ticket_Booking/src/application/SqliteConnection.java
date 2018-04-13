@@ -3,7 +3,7 @@ package application;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-public class SqlConnection {
+public class SqliteConnection {
  public static Connection connectdb()
  {
 	 try{
